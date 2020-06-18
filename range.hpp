@@ -40,7 +40,7 @@ namespace itertools
 			const iterator operator++(int)
 			{
 				iterator temp = *this;
-                //current++;
+                current++;
 				return temp;
 			}
 

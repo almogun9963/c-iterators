@@ -58,7 +58,7 @@ namespace itertools
 
 				iterator& operator++()
 				{
-					//++beg;
+					++beg;
 					if(beg!=end)
 					{
 						sum=f(sum,*(beg));
