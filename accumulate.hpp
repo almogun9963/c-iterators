@@ -33,7 +33,6 @@ namespace itertools
 			{
 
 			}
-
 		class iterator
         {
 			private:
@@ -75,14 +74,14 @@ namespace itertools
 					return tmp;
 				}
 
-				bool operator==(const iterator& i)  const
+				bool operator==(const iterator& it)  const
 				{
-					return beg == i.beg;
+					return beg == it.beg;
 				}
 
-				bool operator!=(const iterator& i) const
+				bool operator!=(const iterator& it) const
 				{
-					return beg != i.beg;
+					return beg != it.beg;
 				}
 			};
 

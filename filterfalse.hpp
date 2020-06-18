@@ -36,8 +36,6 @@ namespace itertools
 					{
 
 					}
-
-				++i;
 				iterator& operator++()
 				{
                     ++beg;
@@ -67,14 +65,14 @@ namespace itertools
                     return *beg;
 				}
 
-				bool operator==(const iterator& i) const
+				bool operator==(const iterator& it) const
 				{
-					return beg == i.beg;
+					return beg == it.beg;
 				}
 
-				bool operator!=(const iterator& rhs) const
+				bool operator!=(const iterator& it) const
 				{
-					return beg != i.beg;
+					return beg != it.beg;
 				}
 			};
 

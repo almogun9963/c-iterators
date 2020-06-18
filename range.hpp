@@ -14,10 +14,7 @@ namespace itertools
 
 			range(int x,int y):start(x),finish(y)
 			{
-				if(x>y)
-				{
-					throw new std::logic_error("there is no range\n");
-				}
+			    
 			}
 
 	class iterator
@@ -31,7 +28,6 @@ namespace itertools
 				{
 
 				}
-
 			int operator*() const
 			{
 				return current;
