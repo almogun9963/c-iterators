@@ -14,7 +14,7 @@ namespace itertools
 
 			range(int x,int y):start(x),finish(y)
 			{
-			    
+
 			}
 
 	class iterator
@@ -40,7 +40,7 @@ namespace itertools
 			const iterator operator++(int)
 			{
 				iterator temp = *this;
-                current++;
+                //current++;
 				return temp;
 			}
 

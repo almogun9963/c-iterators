@@ -53,11 +53,11 @@ namespace itertools{
 				iterator& operator++()
 				{
 					cout<< "++operator "<<endl;
-                    ++beg;
+                    //++beg;
                     ++beg_bool;
                     while(!*beg_bool && beg_bool!=end_bool)
                     {
-                        ++beg;
+                        //++beg;
                         ++beg_bool;
                     }
 					return *this;

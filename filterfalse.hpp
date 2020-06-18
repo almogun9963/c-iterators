@@ -48,10 +48,10 @@ namespace itertools
 				iterator operator++(int)
 				{
 					iterator tmp= *this;
-                    beg++;
+                    //beg++;
                     while(f(*beg) && beg!=end)
                     {
-                        beg++;
+                        //beg++;
                     }
 					return tmp;
 				}
